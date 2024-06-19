@@ -8,45 +8,58 @@
     <style>
         label {color: white;}
         body {background-color:cadetblue;}
-        h1 {color: beige;}
+        h1 {color:beige;}
         .botao{background-color: beige;}
         h1 {
             box-sizing: border-box;
             height: 50px;
             padding: 8px 2px 3px 4px;
             border: 2px solid;
-            margin: 10px;
+            margin: 0px;
             }
+           header {background-color:gray;}
 
     </style>
 </head>
 
-<body>
 
-    <h1>Formulário de login</h1>
+<body> 
+    <header>
+        <div>
+            <h1>Formulário de login</h1>
+        </div>
+    </header>
 
-    <form> 
-        <label for="name" >Nome</label>
-        <input id="name" type="text" placeholder="Digite seu nome" />
+    <br />
+    
+            <form> 
+                <label for="name" >Nome</label>
+                <input id="name" type="text" placeholder="Digite seu nome" />
+        
+                <br />
+                <br />
+        
+                <label for="email" >e-mail</label>
+                <input id="email" type="email" placeholder="Digite seu email" />
+        
+                <br />
+                <br />
+        
+                <label for="password" >Senha</label>
+                <input id="password" type="password" placeholder="Digite sua senha" />
+        
+                <br />
+                <br />
+        
+                <button class="botao" type="submit">
+                    Cadastrar-se
+                </button>
+            </form>
 
-        <br />
-        <br />
+        </body>
+        </html>
+    
+        </div>
+     </header>
 
-        <label for="email" >e-mail</label>
-        <input id="email" type="email" placeholder="Digite seu email" />
 
-        <br />
-        <br />
-
-        <label for="password" >Senha</label>
-        <input id="password" type="password" placeholder="Digite sua senha" />
-
-        <br />
-        <br />
-
-        <button class="botao" type="submit">
-            Cadastrar-se
-        </button>
-    </form>
-</body>
-</html>

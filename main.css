@@ -79,7 +79,7 @@ section h2,
 
 .articles article p,
 .articles article a {
-    font font-family: arial, helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .articles article h3 {
@@ -87,7 +87,7 @@ section h2,
 }
 
 section h2 {
-     font-size: 32px;
+    font-size: 32px;
 }
 
 #Esportes {
